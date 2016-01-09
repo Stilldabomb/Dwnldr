@@ -1,0 +1,9 @@
+Package: com.stilldabomb.dwnldr
+Name: Dwnldr
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Dwnldr
+Maintainer: Stilldabomb
+Author: Stilldabomb
+Section: Tweaks
+Version: 1.0.2

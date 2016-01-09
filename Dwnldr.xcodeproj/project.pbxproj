@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E01C60F81C18E0C3009B010C /* ZKSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = E01C60F71C18E0C3009B010C /* ZKSwizzle.m */; };
+		E01C60FA1C18E111009B010C /* TMTumblrNativeVideoPostContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = E01C60F91C18E111009B010C /* TMTumblrNativeVideoPostContentView.m */; };
+		E01C60FF1C18E68D009B010C /* Dwnldr.m in Sources */ = {isa = PBXBuildFile; fileRef = E01C60FE1C18E68D009B010C /* Dwnldr.m */; };
+		E01C61011C18F0F6009B010C /* TMProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E01C61001C18F0F6009B010C /* TMProfileViewController.m */; };
+		E01C61071C1B8699009B010C /* TMSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E01C61061C1B8699009B010C /* TMSplitViewController.m */; };
+		E01C610A1C1D3383009B010C /* DwnldrVaultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E01C61091C1D3383009B010C /* DwnldrVaultViewController.m */; };
+		E01C61221C1D6DFE009B010C /* DwnldrVaultScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E01C61211C1D6DFE009B010C /* DwnldrVaultScrollView.m */; };
+		E01C61251C1D6ECF009B010C /* DwnldrVaultImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E01C61241C1D6ECF009B010C /* DwnldrVaultImageView.m */; };
+		E01C612A1C1F890A009B010C /* DwnldrVideoOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = E01C61291C1F890A009B010C /* DwnldrVideoOverlayView.m */; };
+		E01C612D1C21F0A5009B010C /* DwnldrVaultNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E01C612C1C21F0A5009B010C /* DwnldrVaultNavigationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E01C60E71C18DEB3009B010C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E01C60E91C18DEB3009B010C /* Dwnldr.dylib */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = Dwnldr.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		E01C60F61C18E0C3009B010C /* ZKSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKSwizzle.h; sourceTree = "<group>"; };
+		E01C60F71C18E0C3009B010C /* ZKSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKSwizzle.m; sourceTree = "<group>"; };
+		E01C60F91C18E111009B010C /* TMTumblrNativeVideoPostContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMTumblrNativeVideoPostContentView.m; sourceTree = "<group>"; };
+		E01C60FB1C18E22D009B010C /* Dwnldr-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dwnldr-Prefix.pch"; sourceTree = "<group>"; };
+		E01C60FD1C18E68D009B010C /* Dwnldr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dwnldr.h; sourceTree = "<group>"; };
+		E01C60FE1C18E68D009B010C /* Dwnldr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dwnldr.m; sourceTree = "<group>"; };
+		E01C61001C18F0F6009B010C /* TMProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMProfileViewController.m; sourceTree = "<group>"; };
+		E01C61061C1B8699009B010C /* TMSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMSplitViewController.m; sourceTree = "<group>"; };
+		E01C61081C1D3383009B010C /* DwnldrVaultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DwnldrVaultViewController.h; sourceTree = "<group>"; };
+		E01C61091C1D3383009B010C /* DwnldrVaultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DwnldrVaultViewController.m; sourceTree = "<group>"; };
+		E01C61201C1D6DFE009B010C /* DwnldrVaultScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DwnldrVaultScrollView.h; sourceTree = "<group>"; };
+		E01C61211C1D6DFE009B010C /* DwnldrVaultScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DwnldrVaultScrollView.m; sourceTree = "<group>"; };
+		E01C61231C1D6ECF009B010C /* DwnldrVaultImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DwnldrVaultImageView.h; sourceTree = "<group>"; };
+		E01C61241C1D6ECF009B010C /* DwnldrVaultImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DwnldrVaultImageView.m; sourceTree = "<group>"; };
+		E01C61281C1F890A009B010C /* DwnldrVideoOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DwnldrVideoOverlayView.h; sourceTree = "<group>"; };
+		E01C61291C1F890A009B010C /* DwnldrVideoOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DwnldrVideoOverlayView.m; sourceTree = "<group>"; };
+		E01C612B1C21F0A5009B010C /* DwnldrVaultNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DwnldrVaultNavigationController.h; sourceTree = "<group>"; };
+		E01C612C1C21F0A5009B010C /* DwnldrVaultNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DwnldrVaultNavigationController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E01C60E61C18DEB3009B010C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		745B8BE78E975F7518347511 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E01C60E01C18DEB3009B010C = {
+			isa = PBXGroup;
+			children = (
+				E01C60EB1C18DEB3009B010C /* Dwnldr */,
+				E01C60EA1C18DEB3009B010C /* Products */,
+				745B8BE78E975F7518347511 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E01C60EA1C18DEB3009B010C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E01C60E91C18DEB3009B010C /* Dwnldr.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E01C60EB1C18DEB3009B010C /* Dwnldr */ = {
+			isa = PBXGroup;
+			children = (
+				E01C61021C1AA852009B010C /* views */,
+				E01C60F51C18E0AC009B010C /* swizzling */,
+				E01C60FB1C18E22D009B010C /* Dwnldr-Prefix.pch */,
+				E01C60FD1C18E68D009B010C /* Dwnldr.h */,
+				E01C60FE1C18E68D009B010C /* Dwnldr.m */,
+			);
+			path = Dwnldr;
+			sourceTree = "<group>";
+		};
+		E01C60F51C18E0AC009B010C /* swizzling */ = {
+			isa = PBXGroup;
+			children = (
+				E01C60F61C18E0C3009B010C /* ZKSwizzle.h */,
+				E01C60F71C18E0C3009B010C /* ZKSwizzle.m */,
+				E01C60F91C18E111009B010C /* TMTumblrNativeVideoPostContentView.m */,
+				E01C61001C18F0F6009B010C /* TMProfileViewController.m */,
+				E01C61061C1B8699009B010C /* TMSplitViewController.m */,
+			);
+			name = swizzling;
+			sourceTree = "<group>";
+		};
+		E01C61021C1AA852009B010C /* views */ = {
+			isa = PBXGroup;
+			children = (
+				E01C61261C1F88D8009B010C /* vault view */,
+				E01C61271C1F88E6009B010C /* video overlay */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		E01C61261C1F88D8009B010C /* vault view */ = {
+			isa = PBXGroup;
+			children = (
+				E01C612B1C21F0A5009B010C /* DwnldrVaultNavigationController.h */,
+				E01C612C1C21F0A5009B010C /* DwnldrVaultNavigationController.m */,
+				E01C61081C1D3383009B010C /* DwnldrVaultViewController.h */,
+				E01C61091C1D3383009B010C /* DwnldrVaultViewController.m */,
+				E01C61201C1D6DFE009B010C /* DwnldrVaultScrollView.h */,
+				E01C61211C1D6DFE009B010C /* DwnldrVaultScrollView.m */,
+				E01C61231C1D6ECF009B010C /* DwnldrVaultImageView.h */,
+				E01C61241C1D6ECF009B010C /* DwnldrVaultImageView.m */,
+			);
+			name = "vault view";
+			sourceTree = "<group>";
+		};
+		E01C61271C1F88E6009B010C /* video overlay */ = {
+			isa = PBXGroup;
+			children = (
+				E01C61281C1F890A009B010C /* DwnldrVideoOverlayView.h */,
+				E01C61291C1F890A009B010C /* DwnldrVideoOverlayView.m */,
+			);
+			name = "video overlay";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E01C60E81C18DEB3009B010C /* Dwnldr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E01C60F21C18DEB4009B010C /* Build configuration list for PBXNativeTarget "Dwnldr" */;
+			buildPhases = (
+				E01C60E51C18DEB3009B010C /* Sources */,
+				E01C60E61C18DEB3009B010C /* Frameworks */,
+				E01C60E71C18DEB3009B010C /* CopyFiles */,
+				E01C60FC1C18E309009B010C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dwnldr;
+			productName = Dwnldr;
+			productReference = E01C60E91C18DEB3009B010C /* Dwnldr.dylib */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E01C60E11C18DEB3009B010C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Stilldabomb;
+				TargetAttributes = {
+					E01C60E81C18DEB3009B010C = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = E01C60E41C18DEB3009B010C /* Build configuration list for PBXProject "Dwnldr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E01C60E01C18DEB3009B010C;
+			productRefGroup = E01C60EA1C18DEB3009B010C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E01C60E81C18DEB3009B010C /* Dwnldr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E01C60FC1C18E309009B010C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "IP=localhost\nPORT=2222\n\nif [ -z \"$EXTERNAL\" ]; then\n    ldid -S Builds/Dwnldr.dylib;\n    scp -P \"$PORT\" Builds/Dwnldr.dylib root@\"$IP\":/Library/MobileSubstrate/DynamicLibraries/Dwnldr.dylib;\n    ssh root@\"$IP\" -p \"$PORT\" \"ldid -S /Library/MobileSubstrate/DynamicLibraries/Dwnldr.dylib;killall Tumblr &>/dev/null;echo \\\"[[UIApplication sharedApplication] launchApplicationWithIdentifier: @\\\\\\\"com.tumblr.tumblr\\\\\\\" suspended: NO]\\\" > temp;cycript -p SpringBoard temp;rm temp;\";\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E01C60E51C18DEB3009B010C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E01C610A1C1D3383009B010C /* DwnldrVaultViewController.m in Sources */,
+				E01C60FF1C18E68D009B010C /* Dwnldr.m in Sources */,
+				E01C61221C1D6DFE009B010C /* DwnldrVaultScrollView.m in Sources */,
+				E01C612D1C21F0A5009B010C /* DwnldrVaultNavigationController.m in Sources */,
+				E01C60F81C18E0C3009B010C /* ZKSwizzle.m in Sources */,
+				E01C61011C18F0F6009B010C /* TMProfileViewController.m in Sources */,
+				E01C60FA1C18E111009B010C /* TMTumblrNativeVideoPostContentView.m in Sources */,
+				E01C61251C1D6ECF009B010C /* DwnldrVaultImageView.m in Sources */,
+				E01C61071C1B8699009B010C /* TMSplitViewController.m in Sources */,
+				E01C612A1C1F890A009B010C /* DwnldrVideoOverlayView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E01C60F01C18DEB4009B010C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E01C60F11C18DEB4009B010C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E01C60F31C18DEB4009B010C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = Builds/;
+				DSTROOT = Builds/;
+				DYLIB_INSTALL_NAME_BASE = Builds/;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_EXTENSION = dylib;
+				EXECUTABLE_PREFIX = "";
+				GCC_PREFIX_HEADER = "Dwnldr/Dwnldr-Prefix.pch";
+				INSTALL_PATH = Builds/;
+				LD_DYLIB_INSTALL_NAME = Builds/Dwnldr.dylib;
+				MACH_O_TYPE = mh_dylib;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-Wl,-segalign,4000",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+			};
+			name = Debug;
+		};
+		E01C60F41C18DEB4009B010C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = Builds/;
+				DSTROOT = Builds/;
+				DYLIB_INSTALL_NAME_BASE = Builds/;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_EXTENSION = dylib;
+				EXECUTABLE_PREFIX = "";
+				GCC_PREFIX_HEADER = "Dwnldr/Dwnldr-Prefix.pch";
+				INSTALL_PATH = Builds/;
+				LD_DYLIB_INSTALL_NAME = Builds/Dwnldr.dylib;
+				MACH_O_TYPE = mh_dylib;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-Wl,-segalign,4000",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E01C60E41C18DEB3009B010C /* Build configuration list for PBXProject "Dwnldr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E01C60F01C18DEB4009B010C /* Debug */,
+				E01C60F11C18DEB4009B010C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E01C60F21C18DEB4009B010C /* Build configuration list for PBXNativeTarget "Dwnldr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E01C60F31C18DEB4009B010C /* Debug */,
+				E01C60F41C18DEB4009B010C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E01C60E11C18DEB3009B010C /* Project object */;
+}
