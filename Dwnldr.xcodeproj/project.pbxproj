@@ -11,7 +11,6 @@
 		E01C60FA1C18E111009B010C /* TMTumblrNativeVideoPostContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = E01C60F91C18E111009B010C /* TMTumblrNativeVideoPostContentView.m */; };
 		E01C60FF1C18E68D009B010C /* Dwnldr.m in Sources */ = {isa = PBXBuildFile; fileRef = E01C60FE1C18E68D009B010C /* Dwnldr.m */; };
 		E01C61011C18F0F6009B010C /* TMProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E01C61001C18F0F6009B010C /* TMProfileViewController.m */; };
-		E01C61071C1B8699009B010C /* TMSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E01C61061C1B8699009B010C /* TMSplitViewController.m */; };
 		E01C610A1C1D3383009B010C /* DwnldrVaultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E01C61091C1D3383009B010C /* DwnldrVaultViewController.m */; };
 		E01C61221C1D6DFE009B010C /* DwnldrVaultScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E01C61211C1D6DFE009B010C /* DwnldrVaultScrollView.m */; };
 		E01C61251C1D6ECF009B010C /* DwnldrVaultImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E01C61241C1D6ECF009B010C /* DwnldrVaultImageView.m */; };
@@ -40,7 +39,6 @@
 		E01C60FD1C18E68D009B010C /* Dwnldr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dwnldr.h; sourceTree = "<group>"; };
 		E01C60FE1C18E68D009B010C /* Dwnldr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dwnldr.m; sourceTree = "<group>"; };
 		E01C61001C18F0F6009B010C /* TMProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMProfileViewController.m; sourceTree = "<group>"; };
-		E01C61061C1B8699009B010C /* TMSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMSplitViewController.m; sourceTree = "<group>"; };
 		E01C61081C1D3383009B010C /* DwnldrVaultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DwnldrVaultViewController.h; sourceTree = "<group>"; };
 		E01C61091C1D3383009B010C /* DwnldrVaultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DwnldrVaultViewController.m; sourceTree = "<group>"; };
 		E01C61201C1D6DFE009B010C /* DwnldrVaultScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DwnldrVaultScrollView.h; sourceTree = "<group>"; };
@@ -107,7 +105,6 @@
 				E01C60F71C18E0C3009B010C /* ZKSwizzle.m */,
 				E01C60F91C18E111009B010C /* TMTumblrNativeVideoPostContentView.m */,
 				E01C61001C18F0F6009B010C /* TMProfileViewController.m */,
-				E01C61061C1B8699009B010C /* TMSplitViewController.m */,
 			);
 			name = swizzling;
 			sourceTree = "<group>";
@@ -226,7 +223,6 @@
 				E01C61011C18F0F6009B010C /* TMProfileViewController.m in Sources */,
 				E01C60FA1C18E111009B010C /* TMTumblrNativeVideoPostContentView.m in Sources */,
 				E01C61251C1D6ECF009B010C /* DwnldrVaultImageView.m in Sources */,
-				E01C61071C1B8699009B010C /* TMSplitViewController.m in Sources */,
 				E01C612A1C1F890A009B010C /* DwnldrVideoOverlayView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -13,12 +13,6 @@ ZKSwizzleInterface($_TMProfileViewController, TMProfileViewController, UITableVi
 
 @implementation $_TMProfileViewController
 
-- (id)initWithCoreDataController:(id)arg1 dataServiceFactory:(id)arg2 requestSenderFactory:(id)arg3 formTokenRequest:(id)arg4 {//initWithUser:(id)arg1 colorScheme:(id)arg2 formTokenRequest:(id)arg3 {
-    self = ZKOrig(id, arg1, arg2, arg3, arg4);
-    [[Dwnldr sharedInstance] setTumblrProfileViewController:self];
-    return self;
-}
-
 - (UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell;
     

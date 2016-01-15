@@ -71,12 +71,12 @@ ZKSwizzleInterface($_TMTumblrNativeVideoPostContentView, TMTumblrNativeVideoPost
     [alert addAction:cancel];
     
     if ([alert respondsToSelector:@selector(popoverPresentationController)]) {
-        alert.popoverPresentationController.sourceView = self;//[[[[Dwnldr sharedInstance] cachedOverlays] objectForKey:@(self.tag)] anchorView];
+        alert.popoverPresentationController.sourceView = self;
         CGPoint loc = [gesture locationInView:self];
         alert.popoverPresentationController.sourceRect = CGRectMake(loc.x, loc.y, 1, 1);
         alert.popoverPresentationController.permittedArrowDirections = UIPopoverArrowDirectionUp | UIPopoverArrowDirectionDown;
     }
-    [[[Dwnldr sharedInstance] tumblrTabBarController] presentViewController:alert animated:YES completion:^{
+    [[[UIApplication sharedApplication] windows][0].rootViewController presentViewController:alert animated:YES completion:^{
         for (UIGestureRecognizer *ge in self.gestureRecognizers) [ge setEnabled: YES];
     }];
 }

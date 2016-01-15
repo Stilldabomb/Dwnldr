@@ -60,10 +60,8 @@ static id instance;
 
 - (void)setEditing:(BOOL)editing {
     _editing = editing;
-    [UIView animateWithDuration:0.2 animations:^{
-        self.navigationItem.leftBarButtonItem.title = _editing ? @"Done" : @"Edit";
-        self.navigationItem.leftBarButtonItem.style = _editing ? UIBarButtonItemStyleDone : UIBarButtonItemStylePlain;
-    }];
+    self.navigationItem.leftBarButtonItem.title = _editing ? @"Done" : @"Edit";
+    self.navigationItem.leftBarButtonItem.style = _editing ? UIBarButtonItemStyleDone : UIBarButtonItemStylePlain;
     self.navigationItem.rightBarButtonItem = _editing ? _deleteButton : _closeButton;
     for (DwnldrVaultImageView *im in _scrollView.videos) {
         [im setEditing:_editing];
@@ -71,7 +69,7 @@ static id instance;
 }
 
 - (void)backButtonPressed:(UIBarButtonItem *)item {
-    [[[Dwnldr sharedInstance] tumblrProfileViewController] dismissViewControllerAnimated:YES completion:nil];
+    [[[UIApplication sharedApplication] windows][0].rootViewController dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (void)editButtonPressed:(UIBarButtonItem*)item {

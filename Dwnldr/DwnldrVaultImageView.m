@@ -54,7 +54,7 @@
     [[NSFileManager defaultManager] removeItemAtPath:_videoPath error:nil];
     [[NSFileManager defaultManager] removeItemAtPath:_imagePath error:nil];
     [self removeFromSuperview];
-    [[Dwnldr sharedInstance] uncacheVideo:[_videoPath substringFromIndex:kVideosDirectory.length + 1] withPlaceHolder:[_imagePath substringFromIndex:kVideosDirectory.length + 1]];
+    [[Dwnldr sharedInstance] uncacheVideo:[_videoPath substringFromIndex:kVideosDirectory.length + 1]];
     dispatch_async(dispatch_get_main_queue(), ^{
         [[[[DwnldrVaultViewController sharedInstance] scrollView] videos] removeObject:self];
     });

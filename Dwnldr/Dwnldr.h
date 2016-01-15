@@ -9,9 +9,6 @@
 #import "DwnldrVideoOverlayView.h"
 
 @interface Dwnldr : NSObject
-@property (nonatomic,retain)UISplitViewController *tumblrSplitViewController;
-@property (nonatomic,retain)UITabBarController *tumblrTabBarController;
-@property (nonatomic,retain)UITableViewController *tumblrProfileViewController;
 @property (nonatomic,retain)NSMutableArray *cachedVideos;
 @property (nonatomic,retain)NSMutableDictionary *cachedPlaceHolders;
 @property (nonatomic,retain)NSMutableDictionary<NSNumber*,DwnldrVideoOverlayView*> *cachedOverlays;
@@ -31,6 +28,6 @@
 -(void)downloadVideo:(NSURL*)URL withPlaceHolder:(NSURL*)placeHolderURL videoIndex:(NSInteger)index;
 -(void)cacheVideos;
 -(void)cacheVideo:(NSString*)video withPlaceHolder:(NSString*)placeHolder;
--(void)uncacheVideo:(NSString*)video withPlaceHolder:(NSString*)placeHolder;
+-(void)uncacheVideo:(NSString*)video;
 -(void)exportVideo:(NSString*)video videoIndex:(NSInteger)index;
 @end
